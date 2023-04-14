@@ -17,12 +17,7 @@ export const NewsDetail = ({
   const params = useMemo(() => route?.params, [route]);
 
   return (
-    <Block
-      color="white"
-      block
-      paddingTop={insets.top}
-      paddingHorizontal={16}
-      middle>
+    <Block color="white" block paddingTop={insets.top} paddingHorizontal={16}>
       <Block middle direction="row" paddingHorizontal={8}>
         <Button onPress={goBack}>
           <Icon icon="back" />
